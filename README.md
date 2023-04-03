@@ -5,30 +5,38 @@ This repository contains notebook templates for submission to US-RSE hosted call
 
 
 ## Submission types
-See [https://us-rse.org/usrse23/participate/notebooks/](https://us-rse.org/usrse23/participate/notebooks/)
+There are three submission categories. General templates are provided for Reproducible documents and Interactive notebooks. Additionally, a template for a reproducible publication falling under the Reprodcible Document category is available. 
+1) Reproducible documents
+    - includes reproducible publications
+2) Interactive Notebooks
+    - includes shiny apps
+3) Innovative use of Notebooks
+
+To read more about these submission types to decide how your notebook shouls be categorized, see [https://us-rse.org/usrse23/participate/notebooks/](https://us-rse.org/usrse23/participate/notebooks/)
 
 
 
 ## Submission Requirements
 
 Notebooks should be submitted as GitHub repositories
-Your repository should contain the following:
+Your repository should contain the following for favorable review:
 - your notebook file
 - environment file
 - data file (as needed, should be only condensed, GitHub sized subset of data)
 - citation.cff
+- README file with the following:
+    - title
+    - authors
+    - abstract (word limit: )
+    - keywords
 - any other supporting files necessary for the notebook to run
-
-
-
 
 ## How to submit on Easy Chair
 On easy chair there are three requirements for submission:
 1) choose your submission type.
     a) if choosing interactive notebook, additional upload required for usage instructions. What steps should reviewers walk through and what results should they get? To verify "reproducibility" for 
-    b) if choosing innovative use of notebook, additional upload required to explain why your notebook does not fall in the first two categories and why it should be considered as a new submission type
-2) citation.cff file (zipped so it is compatible with requirements on the Easy Chair platform)
-3) GitHub link to your repository (public, or shared with??)
+2) citation.cff *zip* file (zipped so it is compatible with requirements on the Easy Chair platform)
+3) GitHub link to your *public* repository (if you cannot submit a public repository contact: usrsecon2023@easychair.org)
 
 
 
