@@ -1,0 +1,36 @@
+---
+title: "Getting Started with Quarto"
+format: html
+execute:
+  echo: false
+---
+
+```{r}
+#| code-fold: false
+#| include: false
+```
+
+## Quarto Markdown
+
+R Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. Quarto is a multi-language, next-generation version of R Markdown from RStudio, and includes dozens of new features and capabilities while at the same being able to render most existing Rmd files without modification. Learn more about [Quarto for R Markdown users](https://quarto.org/docs/faq/rmarkdown.html).
+
+## Preview Data
+
+Let's take a look at some data: 
+
+```{r cars}
+summary(cars)
+```
+
+## Include Plots
+
+You can also embed plots, for example:
+
+```{r pressure}
+plot(pressure)
+```
+
+*Note: this template is an adaption of the default R Markdown document*
+
+
+

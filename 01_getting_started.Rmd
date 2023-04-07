@@ -1,0 +1,48 @@
+---
+title: "Getting Started"
+format: html
+---
+
+## Goals
+
+You will learn how to use Quarto in order to submit a reproducible document to the US-RSE conference. The aim is to compile `reproducible_document_template.qmd` into an HTML document, which is the accepted format for reproducible documents within the digital proceedings.
+
+## Quarto
+
+Quarto® is an open-source scientific and
+technical publishing system built on Pandoc. It can be used to publish
+high-quality documents and books in HTML, PDF, and more.
+
+### 1. Download Quarto
+
+Visit the Getting Started page on the Quarto site and download the latest version.
+
+### 2. Create a static HTML page
+
+```{bash}
+quarto render reproducible_document_template.qmd --to html
+```
+
+Great! Now use the sidebar to open up `reproducible_document_template.html`. Looks good doesn't it?
+
+But maybe you don't want to run this command every single time you want to view a change. To see the changes live, let's try using the Quarto preview command, which launches a server that hosts a dynamic webpage.
+
+### 3. Preview the output in your browser
+
+```{bash}
+quarto preview reproducible_document_template.qmd
+```
+
+### 4. Observe reflected changes to reproducible_document_template.qmd
+
+We want to see a change reflected when we alter the notebook.
+
+- [Open reproducible_document_template.qmd](reproducible_document_template.qmd) for editing
+- add a markdown cell that says "Hello!"
+- save the notebook
+- observe the reflected change in the preview tab
+
+
+### 5. Learn more
+
+Visit [Getting Started: Computations](https://quarto.org/docs/get-started/computations/rstudio.html) to learn more about the different options you have to control how code and computational output appear within rendered documents. You are done with "Getting Started with Quarto"! Edit the template and submit your computational notebook to the US-RSE Conference.
